@@ -34,7 +34,5 @@ for i in range(number_of_players):
 
 data = pandas.DataFrame(table_names , columns = [["Melhores Jogadores"]])
 
-#print(data)
-
-#data.to_csv("data.csv")
+data.to_csv("data.csv")
 
