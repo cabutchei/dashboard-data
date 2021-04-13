@@ -52,4 +52,4 @@ if number_of_entries % 8 == 0:
     rows.sort(reverse = True, key = lambda item : float(item[4][:-1]))
     df2 = pandas.DataFrame(rows, columns = columns)
     #print(df2)
-    df2.to_csv("C:/Users/Usuario/Documents/Visual Studio Code/dashboard/twitch_data/top_games_twitch_stats.csv", index = False)
+    #df2.to_csv("C:/Users/Usuario/Documents/Visual Studio Code/dashboard/twitch_data/top_games_twitch_stats.csv", index = False)
