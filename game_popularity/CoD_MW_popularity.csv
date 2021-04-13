@@ -1,0 +1,247 @@
+Country,Popularity,ISO
+Guam,0,GUM
+Northern Mariana Islands,0,MNP
+Iceland,0,ISL
+United States,100,USA
+Turks & Caicos Islands,0,TCA
+United Kingdom,96,GBR
+Aruba,0,ABW
+Gibraltar,0,GIB
+Guernsey,0,GGY
+Canada,84,CAN
+Jersey,0,JEY
+Greenland,0,GRL
+St. Kitts & Nevis,0,KNA
+Australia,75,AUS
+Puerto Rico,73,PRI
+Ireland,71,IRL
+Isle of Man,0,IMN
+Norway,71,NOR
+Malta,0,MLT
+San Marino,0,SMR
+Bermuda,0,BMU
+French Guiana,0,GUF
+New Zealand,63,NZL
+St. Lucia,0,LCA
+Kuwait,61,KWT
+Netherlands,59,NLD
+Cuba,0,CUB
+Åland Islands,0,ALA
+Seychelles,0,SYC
+Brunei,0,BRN
+Germany,51,DEU
+Trinidad & Tobago,0,TTO
+Maldives,0,MDV
+Hungary,50,HUN
+Dominica,0,DMA
+Belgium,50,BEL
+Bahrain,0,BHR
+Sweden,48,SWE
+France,46,FRA
+United Arab Emirates,46,ARE
+Denmark,46,DNK
+Barbados,0,BRB
+Austria,46,AUT
+South Africa,46,ZAF
+Grenada,0,GRD
+Finland,44,FIN
+U.S. Virgin Islands,0,VIR
+Bahamas,0,BHS
+Curaçao,0,CUW
+New Caledonia,0,NCL
+American Samoa,0,ASM
+Qatar,0,QAT
+Estonia,0,EST
+Belize,0,BLZ
+Switzerland,40,CHE
+Honduras,0,HND
+Lebanon,0,LBN
+Cyprus,0,CYP
+Guyana,0,GUY
+Philippines,38,PHL
+French Polynesia,0,PYF
+Papua New Guinea,0,PNG
+Liechtenstein,0,LIE
+Czechia,38,CZE
+Singapore,38,SGP
+Luxembourg,0,LUX
+Botswana,0,BWA
+Madagascar,0,MDG
+Martinique,0,MTQ
+Cayman Islands,0,CYM
+St. Helena,0,SHN
+Mayotte,0,MYT
+Chile,34,CHL
+Sint Maarten,0,SXM
+Slovenia,0,SVN
+Portugal,32,PRT
+Jamaica,0,JAM
+Andorra,0,AND
+Panama,0,PAN
+Cape Verde,0,CPV
+Lithuania,0,LTU
+Ethiopia,0,ETH
+Croatia,30,HRV
+Costa Rica,0,CRI
+Sri Lanka,30,LKA
+South Korea,30,KOR
+North Macedonia,0,MKD
+Mexico,30,MEX
+Fiji,0,FJI
+Faroe Islands,0,FRO
+Eswatini,0,SWZ
+Spain,28,ESP
+Italy,28,ITA
+Malawi,0,MWI
+Japan,26,JPN
+Venezuela,26,VEN
+El Salvador,0,SLV
+Bolivia,0,BOL
+Oman,0,OMN
+Pakistan,25,PAK
+Saudi Arabia,25,SAU
+Slovakia,25,SVK
+Bosnia & Herzegovina,0,BIH
+Israel,25,ISR
+Georgia,0,GEO
+Colombia,23,COL
+Uruguay,0,URY
+Romania,23,ROU
+Réunion,0,REU
+Greece,23,GRC
+Latvia,0,LVA
+Djibouti,0,DJI
+Suriname,0,SUR
+Mauritius,0,MUS
+Congo,0,COD
+Dominican Republic,0,DOM
+Zimbabwe,0,ZWE
+Poland,21,POL
+Jordan,0,JOR
+Guatemala,0,GTM
+Uzbekistan,0,UZB
+Paraguay,0,PRY
+Bangladesh,19,BGD
+Azerbaijan,0,AZE
+Turkey,19,TUR
+Iraq,0,IRQ
+Mongolia,0,MNG
+Argentina,19,ARG
+Guadeloupe,0,GLP
+Hong Kong,19,HKG
+Serbia,0,SRB
+Namibia,0,NAM
+Brazil,19,BRA
+Malaysia,17,MYS
+Moldova,0,MDA
+Palestine,0,PSE
+Montenegro,0,MNE
+Turkmenistan,0,TKM
+Nicaragua,0,NIC
+Gabon,0,GAB
+Ecuador,0,ECU
+Bulgaria,0,BGR
+Peru,17,PER
+Tunisia,0,TUN
+Ukraine,17,UKR
+Russia,15,RUS
+Côte d’Ivoire,0,CIV
+Iran,15,IRN
+Egypt,15,EGY
+Armenia,0,ARM
+Algeria,0,DZA
+Bhutan,0,BTN
+Zambia,0,ZMB
+Angola,0,AGO
+Uganda,0,UGA
+Sierra Leone,0,SLE
+Belarus,0,BLR
+Benin,0,BEN
+Macao,0,MAC
+Senegal,0,SEN
+Ghana,0,GHA
+Albania,0,ALB
+Libya,0,LBY
+Myanmar,0,MMR
+Kenya,0,KEN
+Kazakhstan,0,KAZ
+China,0,CHN
+Cameroon,0,CMR
+Kyrgyzstan,0,KGZ
+Morocco,0,MAR
+Niger,0,NER
+Togo,0,TGO
+Afghanistan,0,AFG
+Nepal,0,NPL
+Thailand,9,THA
+Indonesia,9,IDN
+India,7,IND
+Mali,0,MLI
+Nigeria,0,NGA
+Tanzania,0,TZA
+Somalia,0,SOM
+Rwanda,0,RWA
+Mozambique,0,MOZ
+Taiwan,7,TWN
+Laos,0,LAO
+Vietnam,5,VNM
+Cambodia,0,KHM
+Burkina Faso,0,BFA
+Sudan,0,SDN
+Syria,0,SYR
+Mauritania,0,MRT
+Haiti,0,HTI
+Guinea,0,GIN
+Tajikistan,0,TJK
+Yemen,0,YEM
+Nauru,0,NRU
+Palau,0,PLW
+Cook Islands,0,COK
+Micronesia,0,FSM
+St. Martin,0,MAF
+British Virgin Islands,0,VGB
+Lesotho,0,LSO
+Timor-Leste,0,TLS
+Gambia,0,GMB
+Anguilla,0,AIA
+Antarctica,0,ATA
+French Southern Territories,0,ATF
+Antigua & Barbuda,0,ATG
+Burundi,0,BDI
+St. Barthélemy,0,BLM
+Bouvet Island,0,BVT
+Central African Republic,0,CAF
+Cocos (Keeling) Islands,0,CCK
+Comoros,0,COM
+Christmas Island,0,CXR
+Eritrea,0,ERI
+Western Sahara,0,ESH
+Falkland Islands (Islas Malvinas),0,FLK
+Guinea-Bissau,0,GNB
+Equatorial Guinea,0,GNQ
+Heard & McDonald Islands,0,HMD
+British Indian Ocean Territory,0,IOT
+Kiribati,0,KIR
+Liberia,0,LBR
+Monaco,0,MCO
+Marshall Islands,0,MHL
+Montserrat,0,MSR
+Norfolk Island,0,NFK
+Niue,0,NIU
+Pitcairn Islands,0,PCN
+North Korea,0,PRK
+South Georgia & South Sandwich Islands,0,SGS
+Svalbard & Jan Mayen,0,SJM
+Solomon Islands,0,SLB
+St. Pierre & Miquelon,0,SPM
+South Sudan,0,SSD
+São Tomé & Príncipe,0,STP
+Chad,0,TCD
+Tokelau,0,TKL
+Tonga,0,TON
+Tuvalu,0,TUV
+U.S. Outlying Islands,0,UMI
+St. Vincent & Grenadines,0,VCT
+Vanuatu,0,VUT
+Wallis & Futuna,0,WLF
+Samoa,0,WSM
