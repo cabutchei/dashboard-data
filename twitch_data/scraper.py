@@ -1,7 +1,7 @@
 import requests, pandas, json, datetime, time
 
-access_token = "ondxnluygzkwrgxlr2h1922igrtcvo"
-client_id = "j2cz0x1tvun9l15vj2zr2pygsfp2sg"
+access_token = None
+client_id = None
 
 url_games = "https://api.twitch.tv/helix/games/top?first=9"
 headers = {"Authorization": "Bearer " + access_token,
