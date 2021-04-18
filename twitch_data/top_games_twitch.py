@@ -33,10 +33,10 @@ if number_of_entries % 8 == 0:
                     views.append(jogo["Visualizações"])
                     denominator += 1
         data[game]["Top 1"] = names_top_1.count(game)
-        freq1 = data[game]["Top 1"] / number_of_groups * 100
+        freq1 = data[game]["Top 1"] / number_of_groups * 100 #<--atualização 
         data[game]["Frequência no Top 1"] = "%.2f" % freq1 + "%" 
         data[game]["Top 3"] = names_top_3.count(game)
-        freq3 = data[game]["Top 3"] / number_of_groups * 100
+        freq3 = data[game]["Top 3"] / number_of_groups * 100 #<--atualização
         data[game]["Frequência no Top 3"] = "%.2f" % freq3 + "%" 
         data[game]["Top 8"] = denominator
         freq8 = data[game]["Top 8"] / number_of_groups * 100
