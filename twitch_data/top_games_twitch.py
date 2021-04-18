@@ -33,15 +33,15 @@ if number_of_entries % 8 == 0:
                     views.append(jogo["Visualizações"])
                     denominator += 1
         data[game]["Top 1"] = names_top_1.count(game)
-        freq1 = data[game]["Top 1"] / denominator * 100
+        freq1 = data[game]["Top 1"] / number_of_groups * 100
         data[game]["Frequência no Top 1"] = "%.2f" % freq1 + "%" 
         data[game]["Top 3"] = names_top_3.count(game)
-        freq3 = data[game]["Top 3"] / denominator * 100
+        freq3 = data[game]["Top 3"] / number_of_groups * 100
         data[game]["Frequência no Top 3"] = "%.2f" % freq3 + "%" 
         data[game]["Top 8"] = denominator
         freq8 = data[game]["Top 8"] / number_of_groups * 100
         data[game]["Frequência no Top 8"] = "%.2f" % freq8 + "%" 
-        average_views = int(round(sum(views)/denominator))
+        average_views = int(round(sum(views)/denominator)) #arredonda a soma da lista views e converte em int
         data[game]["Visualização Média"] = average_views
         peak_views = max(views)
         data[game]["Pico de Visualizações"] = peak_views
@@ -54,4 +54,4 @@ if number_of_entries % 8 == 0:
     #o critério definido foi a frequência no top 3
     df2 = pandas.DataFrame(rows, columns = columns)
     print(df2)
-    #df2.to_csv("C:/Users/Usuario/Documents/Visual Studio Code/dashboard/twitch_data/top_games_twitch_stats.csv", index = False, encoding="utf-8")
+    #df2.to_csv("C:/Users/Usuario/Documents/Visual Studio Code/dashboard/twitch_data/top_games_twitch_stats.csv", index = False, encoding="utf-8-sig")
