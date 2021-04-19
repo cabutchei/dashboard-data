@@ -1,3 +1,5 @@
+##Esse script organiza em estatística os dados obtidos pelos requests de top_games_by_ccu.py
+
 import pandas
 data = pandas.read_csv("C:/Users/Usuario/Documents/Visual Studio Code/dashboard/steam_data/top_games_by_ccu - Copy.csv")
 number_of_entries = len(data.Nome)
