@@ -1,3 +1,5 @@
+##Esse script pega a tabela dos top games da página de estatísticas da steam e adiciona a um arquivo csv
+
 import requests, pandas, datetime, time
 from bs4 import BeautifulSoup
 
@@ -22,4 +24,4 @@ for j in range(240):
         rows.append([timestamp, names[i], numbers[i]])
     df = pandas.DataFrame(rows, columns = ["Hora", "Nome", "ccu"])
     df.to_csv("C:/Users/Usuario/Documents/Visual Studio Code/dashboard/steam_data/top_games_by_ccu.csv", index = False, header = False, mode = "a")
-    time.sleep(1800)
+    time.sleep(1800) #rodando a cada meia hora
