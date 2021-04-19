@@ -3,6 +3,7 @@ import pandas
 file_path = "C:/Users/Usuario/Documents/Visual Studio Code/dashboard/twitch_data/top_games_from_past_week.csv"
 df = pandas.read_csv(file_path)
 number_of_entries = len(df["Nome"])
+number_of_groups = number_of_entries // 8 #grupo corresponde a um request(um top 8)
 
 if number_of_entries % 8 == 0:
     ranking = []  #lista de listas, o índice de cada sublista representa uma posição no ranking e seus elementos são dicionários
@@ -10,7 +11,6 @@ if number_of_entries % 8 == 0:
     all_games = [] #lista com todos os nomes de todos os jogos(sem repetições) 
     data = {} #dicionário principal, contém todos os jogos que apareceram no documento e suas estatísticas relevantes
     for i in range(8):
-        number_of_groups = number_of_entries // 8 #grupo corresponde a um request(um top 8)
         place = [] #place representa cada sublista que será adicionada à lista ranking
         for j in range(number_of_groups):
             index = 8 *  j + i #index é o índice no dataframe de cada posição i+1 avaliada(onde i = index(mod 8)) 
