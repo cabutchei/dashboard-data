@@ -1,3 +1,5 @@
+##Esse script faz o plot com os dados obtidos da média de jogadores concorrentes de cada jogo
+
 import plotly.graph_objects as go
 import pandas
 
