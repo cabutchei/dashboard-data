@@ -23,7 +23,8 @@ fig.add_trace(go.Bar(
     )
 ))
 
-fig.update_layout(paper_bgcolor = 'white',
+fig.update_layout(title = "Games mais populares da twitch por frequência no top 3", #<--atualizado
+        paper_bgcolor = 'white',
                 plot_bgcolor = 'white')
 
 
