@@ -1,3 +1,5 @@
+##Esse script atua como módulo para ccu_over_time_plot
+
 import pandas
 
 df = pandas.read_csv("C:/Users/Usuario/Documents/Visual Studio Code/dashboard/steam_data/top_games_by_ccu - Copy.csv")
