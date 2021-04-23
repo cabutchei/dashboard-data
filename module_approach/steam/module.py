@@ -60,9 +60,9 @@ def filter_by_condition(df, column_name, condition): #filtra de acordo com uma c
 
 def filter_by_row_and_column(df, rows = None, columns = None): #filtra por linhas e colunas. Use tuplas de dois elementos se se referir
     if rows == None:                                           #a todos os elementos do primeiro índice informado ao segundo. Use listas
-        rows = range(0, len(df))                               #caso se refira a índices específicos
-    
-    if columns == None:
+        rows = range(0, len(df))                               #caso se refira a índices específicos(ou um inteiro, se se referir a apenas uma linha). 
+                                                               #Caso use tuplas com mais de dois elementos, somente as extremidades serão consideradas
+    if columns == None:                                        
         columns = df.columns
 
     if type(columns) == str:
