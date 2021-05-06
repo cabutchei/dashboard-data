@@ -1,0 +1,251 @@
+Country,Popularity
+Iraq,100.0
+Bhutan,0.0
+Libya,63.0
+Myanmar (Burma),60.0
+Afghanistan,46.0
+Timor-Leste,0.0
+Palestine,43.0
+Mongolia,40.0
+Kiribati,0.0
+Pakistan,33.0
+Egypt,33.0
+Syria,32.0
+Nepal,31.0
+India,27.0
+Somalia,0.0
+Kosovo,25.0
+Cook Islands,0.0
+Tonga,0.0
+Jordan,22.0
+Azerbaijan,22.0
+Micronesia,0.0
+Uzbekistan,21.0
+Solomon Islands,0.0
+Mauritius,0.0
+Samoa,0.0
+Maldives,0.0
+Brunei,0.0
+Sudan,19.0
+Mauritania,0.0
+Palau,0.0
+Lebanon,19.0
+Oman,18.0
+American Samoa,0.0
+St. Vincent & Grenadines,0.0
+Madagascar,0.0
+Turkmenistan,0.0
+Suriname,0.0
+Georgia,14.0
+Bangladesh,14.0
+Yemen,14.0
+Saudi Arabia,14.0
+Guyana,0.0
+Turkey,13.0
+Algeria,12.0
+Malaysia,12.0
+Grenada,0.0
+Iran,11.0
+Fiji,0.0
+Seychelles,0.0
+Indonesia,9.0
+Kuwait,9.0
+Sri Lanka,9.0
+St. Lucia,0.0
+Western Sahara,0.0
+Armenia,0.0
+Kyrgyzstan,9.0
+Bahrain,0.0
+French Polynesia,0.0
+United Arab Emirates,8.0
+Greenland,0.0
+Vanuatu,0.0
+Qatar,8.0
+Northern Mariana Islands,0.0
+Djibouti,0.0
+Belize,0.0
+Jamaica,0.0
+Dominica,0.0
+South Korea,7.0
+Moldova,0.0
+Cambodia,0.0
+Tajikistan,0.0
+Israel,5.0
+Montenegro,0.0
+St. Helena,0.0
+Vietnam,5.0
+Chad,0.0
+Bosnia & Herzegovina,0.0
+Cyprus,0.0
+Morocco,4.0
+North Macedonia,0.0
+Albania,0.0
+Kazakhstan,4.0
+Laos,0.0
+Ethiopia,0.0
+Philippines,4.0
+Guam,0.0
+Antigua & Barbuda,0.0
+St. Kitts & Nevis,0.0
+Thailand,4.0
+French Guiana,0.0
+Russia,3.0
+China,0.0
+Botswana,0.0
+Ukraine,3.0
+Hong Kong,3.0
+Barbados,0.0
+Macao,0.0
+Mayotte,0.0
+Malawi,0.0
+Romania,3.0
+Singapore,2.0
+Sint Maarten,0.0
+Papua New Guinea,0.0
+Belarus,0.0
+Curaçao,0.0
+Serbia,0.0
+Tunisia,0.0
+Kenya,0.0
+Hungary,2.0
+Taiwan,2.0
+Gambia,0.0
+Namibia,0.0
+Nicaragua,0.0
+Zimbabwe,0.0
+Honduras,0.0
+Latvia,0.0
+Japan,2.0
+U.S. Virgin Islands,0.0
+Paraguay,0.0
+Trinidad & Tobago,0.0
+Guatemala,0.0
+Bulgaria,0.0
+Lithuania,0.0
+Eswatini,0.0
+South Africa,1.0
+El Salvador,0.0
+Gabon,0.0
+Cuba,0.0
+Chile,1.0
+Greece,1.0
+Faroe Islands,0.0
+Croatia,0.0
+Liberia,0.0
+Slovenia,0.0
+Dominican Republic,0.0
+Nigeria,0.0
+Panama,0.0
+Estonia,0.0
+Czechia,0.0
+Slovakia,0.0
+Zambia,0.0
+New Zealand,0.0
+Norway,0.0
+Uruguay,0.0
+Sweden,1.0
+Brazil,1.0
+Mexico,1.0
+South Sudan,0.0
+Isle of Man,0.0
+Tanzania,0.0
+Finland,0.0
+Ecuador,0.0
+Cayman Islands,0.0
+Germany,1.0
+Bolivia,0.0
+Cape Verde,0.0
+Iceland,0.0
+Peru,0.0
+Sierra Leone,0.0
+Mozambique,0.0
+Austria,0.0
+Canada,1.0
+Australia,1.0
+Haiti,0.0
+Ghana,0.0
+Angola,0.0
+Côte d’Ivoire,0.0
+Luxembourg,0.0
+Uganda,0.0
+Puerto Rico,0.0
+Togo,0.0
+Argentina,1.0
+Costa Rica,0.0
+Portugal,0.0
+Niger,0.0
+Netherlands,1.0
+Venezuela,0.0
+Malta,0.0
+Réunion,0.0
+Colombia,1.0
+Belgium,0.0
+Aruba,0.0
+United Kingdom,1.0
+Guinea,0.0
+United States,1.0
+Congo - Kinshasa,0.0
+Ireland,0.0
+Senegal,0.0
+Rwanda,0.0
+Denmark,0.0
+Guadeloupe,0.0
+Martinique,0.0
+Switzerland,0.0
+Cameroon,0.0
+Jersey,0.0
+Bahamas,0.0
+France,0.0
+Congo - Brazzaville,0.0
+New Caledonia,0.0
+Mali,0.0
+Spain,0.0
+Lesotho,0.0
+Italy,0.0
+Poland,0.0
+Burkina Faso,0.0
+Benin,0.0
+Marshall Islands,0.0
+Svalbard & Jan Mayen,0.0
+Caribbean Netherlands,0.0
+São Tomé & Príncipe,0.0
+St. Barthélemy,0.0
+St. Martin,0.0
+Comoros,0.0
+Turks & Caicos Islands,0.0
+British Virgin Islands,0.0
+Equatorial Guinea,0.0
+Guinea-Bissau,0.0
+Central African Republic,0.0
+Guernsey,0.0
+Burundi,0.0
+Åland Islands,0.0
+San Marino,0.0
+Bermuda,0.0
+Anguilla,0.0
+Andorra,0.0
+Antarctica,0.0
+French Southern Territories,0.0
+Bouvet Island,0.0
+Cocos (Keeling) Islands,0.0
+Christmas Island,0.0
+Eritrea,0.0
+Falkland Islands (Islas Malvinas),0.0
+Gibraltar,0.0
+Heard & McDonald Islands,0.0
+British Indian Ocean Territory,0.0
+Liechtenstein,0.0
+Monaco,0.0
+Montserrat,0.0
+Norfolk Island,0.0
+Niue,0.0
+Nauru,0.0
+Pitcairn Islands,0.0
+North Korea,0.0
+South Georgia & South Sandwich Islands,0.0
+St. Pierre & Miquelon,0.0
+Tokelau,0.0
+Tuvalu,0.0
+U.S. Outlying Islands,0.0
+Vatican City,0.0
+Wallis & Futuna,0.0
