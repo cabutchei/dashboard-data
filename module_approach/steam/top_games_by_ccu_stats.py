@@ -1,5 +1,5 @@
 import pandas, module
-data = pandas.read_csv("C:/Users/Usuario/Documents/Visual Studio Code/dashboard/steam_data/top_games_by_ccu - Copy.csv")
+data = pandas.read_csv("C:/Users/Usuario/Documents/module_approach/steam/top_games_by_ccu.csv")
 all_games = module.get_unique_values(data["Nome"])
 
 rows = []
@@ -11,5 +11,5 @@ for game in all_games:
     rows.append([game, average_ccu])
 rows.sort(reverse = True, key = lambda x : x[1])    
 df = pandas.DataFrame(rows, columns = ["Nome", "Média de ccu"])
-print(df)
-#df.to_csv("C:/Users/Usuario/Documents/Visual Studio Code/dashboard/steam_data/top_games_by_ccu_stats.csv", index = False, encoding = "utf-8-sig")
+#print(df)
+df.to_csv("C:/Users/Usuario/Documents/module_approach/steam/top_games_by_ccu_stats.csv", index = False, encoding = "utf-8-sig")

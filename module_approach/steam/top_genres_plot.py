@@ -1,7 +1,7 @@
 import plotly.graph_objects as go
 import pandas
 
-df = pandas.read_csv("C:/Users/Usuario/Documents/Visual Studio Code/dashboard/steam_data/top_genres_2_weeks.csv")  
+df = pandas.read_csv("C:/Users/Usuario/Documents/module_approach/steam/top_genres_2_weeks.csv")  
 
 genre = df["Gênero"]
 occurrences = df["Incidência"]
@@ -38,4 +38,6 @@ fig.update_layout(
     plot_bgcolor='white', 
     hovermode='closest', 
 )
-fig.show()
+
+if __name__ == "__main__":
+    fig.show()

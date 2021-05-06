@@ -33,5 +33,5 @@ for i in range(8):
     module.layout(fig, percentages[i], games[i], 5)
 
 
-
-fig.show()
+if __name__ == "__main__":
+    fig.show()

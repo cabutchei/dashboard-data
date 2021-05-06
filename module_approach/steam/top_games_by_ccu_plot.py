@@ -1,7 +1,7 @@
 import plotly.graph_objects as go
 import pandas, module
 
-df = pandas.read_csv("C:/Users/Usuario/Documents/Visual Studio Code/dashboard/steam_data/top_games_by_ccu_stats.csv")
+df = pandas.read_csv("C:/Users/Usuario/Documents/module_approach/steam/top_games_by_ccu_stats.csv")
 df = module.filter_by_row_and_column(df, (0,7))
 games = list(df["Nome"]) #lista com os nomes
 games.reverse() #o reverse se faz necessário para que o plotly disponha os primeiros colocados na parte de cima
@@ -32,5 +32,5 @@ for i in range(8):
     module.layout(fig, average_ccu[i], games[i], 50000)
 
 
-
-fig.show()
+if __name__ == "__main__":
+    fig.show()
