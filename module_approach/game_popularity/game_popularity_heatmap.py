@@ -34,5 +34,4 @@ def create_heatmap(game):
 fig = create_heatmap("lol")
 
 if __name__ == "__main__":
-    #fig.show()
-    print(fig)
+    fig.show()
