@@ -17,8 +17,8 @@ fig.add_trace(go.Bar(
     x=average_ccu,
     orientation='h', #vertical ou horizontal
     marker=dict(
-        color='#1b0261', #cor da barra
-        line=dict(color='#1b0261', width=3) #cor da borda da barra
+        color='#063152', #cor da barra
+        line=dict(color='#063152', width=3) #cor da borda da barra
     )
 ))
 
