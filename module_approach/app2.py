@@ -152,33 +152,16 @@ Input(component_id = "pubg", component_property = "n_clicks"),
 Input(component_id = "apexlegends", component_property = "n_clicks"),
 Input(component_id = "codmw", component_property = "n_clicks")])
 def update_figures(button1, button2, button3, button4, button5, button6, button7):  #------->troquei o nome da função para fazer mais sentido
-    changed_id = [p['prop_id'] for p in dash.callback_context.triggered][0]
-    if 'lol' in changed_id:
-        new_heatmap = create_heatmap("lol")
-        new_table = create_table("lol")
-    elif 'csgo' in changed_id:
-        new_heatmap = create_heatmap("csgo")
-        new_table = create_table("csgo")
-    elif 'valorant' in changed_id:
-        new_heatmap = create_heatmap("valorant")
-        new_table = create_table("valorant")
-    elif 'dota2' in changed_id:
-        new_heatmap = create_heatmap("dota2")
-        new_table = create_table("dota2")
-    elif 'pubg' in changed_id:
-        new_heatmap = create_heatmap("pubg")
-        new_table = create_table("pubg")
-    elif 'apexlegends' in changed_id:
-        new_heatmap = create_heatmap("apexlegends")
-        new_table = create_table("apexlegends")
-    elif 'codmw' in changed_id:
-        new_heatmap = create_heatmap("codmw")
-        new_table = create_table("codmw")
-    else:
+    _id = dash.callback_context.triggered[0]['prop_id'].split('.')[0]  #------->decidi deixar de ser retardado e reduzi bastante o número de linhas aqui
+    if not _id:
         raise PreventUpdate
+    else:
+        new_heatmap = create_heatmap(_id)
+        new_table = create_table(_id)
     apply_settings("heatmap", new_heatmap)
     apply_settings("top_players_table", new_table)
     return new_heatmap , new_table
+
 
 if __name__ == "__main__":
     app.run_server(debug = True)
