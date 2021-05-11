@@ -77,7 +77,7 @@ button_group = dbc.ButtonGroup(id = "buttons", children =  #grupo vertical de bo
     style = {"position": "absolute", "top": 80, "width": 338}
 )
 
-app.layout = html.Div(className = "html", style = {"background-color": "lavender", "height": 2296}, children = [navbar,
+app.layout = html.Div(className = "html", style = {"background-color": "#D5DFEE", "height": 2296}, children = [navbar,
 #há um div mãe, que eu chamei de "html", é a div da página inteira. A div "body" se refere ao corpo da página(sem a navbar)
 html.Div(className = "body", style = {"margin-top": 90, "margin-left": 100, "margin-right" : 100, "margin-bottom": 90}, children = [
 
